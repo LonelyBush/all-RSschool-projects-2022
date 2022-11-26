@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = 'stylesheet' href ='style.css'>
+    <title>Cozy House</title>
+</head>
+<body>
+    <header > 
+        <div class ='logo-container'>
+            <a class ='logo-link' href ='/shelter-page/pages/main/index.html'>
+            <h1>Cozy House</h1>
+            <span class = 'subtitile'>Shelter for pets in Boston</span>
+        </a>
+        </div>
+        <nav class ='nav-container'>
+            <ul class = 'nav-list'>
+                <div class ='logo-container-in-nav'>
+                    <a href="/shelter-page/pages/main/index.html" class ='logo-link-in-nav'>
+                    <h1 class ='title-in-nav'>Cozy House</h1>
+                    <span class = 'subtitile-in-nav'>Shelter for pets in Boston</span>
+                    </a>
+                </div>
+                <li><a href ='/shelter-page/pages/main/index.html'>About the shelter</a></li>
+                <li><a class ='active' href ="/shelter-page/pages/pets/index.html">Our pets</a></li>
+                <li><a href = "/shelter-page/pages/main/index.html#help">Help the shelter</a></li>
+                <li><a href = '#contact'>Contacts</a></li>
+            </ul>
+        </nav>
+        <div class ='borgar'>
+            <div class ='line line1'></div>
+            <div class ='line line2'></div>
+            <div class ='line line3'></div>
+        </div>
+    </header>
+
+    <main>
+        <section class ='our-friends-section'>
+            <h2 class ='our-friends-title'>Our friends who</h2>
+            <h2 class ='our-friends-title'>are looking for a house</h2>
+            
+         
+                <div class = "our-friends-cards">
+                    
+                    <div onClick ="updatePopup(this.id)" id ='4' class ='our-friends-card'> 
+                        <img class ='' src ="/shelter-page/assets/images/pets-katrine.png" alt ='katrine-cat'> 
+                        <h4 class ='our-friends-names'>Katrine</h4>
+                        <button class ="btn-сard">Learn more</button>
+                    </div>
+                    <div onClick ="updatePopup(this.id)" id ='0' class ='our-friends-card'> 
+                        <img class ='' src ="/shelter-page/assets/images/pets-jennifer.png" alt ='Jennifer-pup'>
+                        <h4  class ='our-friends-names'>Jennifer</h4 >
+                        <button class ="btn-сard">Learn more</button>
+                    </div>
+                    <div onClick ="updatePopup(this.id)" id ='2' class ='our-friends-card'> 
+                        <img class ='' src ="/shelter-page/assets/images/pets-woody.png" alt ='Woody-doggy'>
+                        <h4  class ='our-friends-names'>Woody</h4>
+                        <button class ="btn-сard">Learn more</button> 
+                    </div>
+                    <div onClick ="updatePopup(this.id)" id ='1' class ='our-friends-card'> 
+                        <img class ='' src ="/shelter-page/assets/images/pets-sophia.png" alt ='sophia-doggy'>
+                        <h4  class ='our-friends-names'>Sophia</h4>
+                        <button class ="btn-сard">Learn more</button> 
+                    </div>
+                    <div onClick ="updatePopup(this.id)" id ='5' class ='our-friends-card'> 
+                        <img class ='' src ="/shelter-page/assets/images/pets-timmy.png" alt ='timmy-kitty'>
+                        <h4  class ='our-friends-names'>Timmy</h4>
+                        <button class ="btn-сard">Learn more</button> 
+                    </div>
+                    <div onClick ="updatePopup(this.id)" id ='7' class ='our-friends-card'> 
+                        <img class ='' src ="/shelter-page/assets/images/pets-charly.png" alt ='charly-doggy'>
+                        <h4  class ='our-friends-names'>Charly</h4>
+                        <button class ="btn-сard">Learn more</button> 
+                    </div>
+                    <div onClick ="updatePopup(this.id)" id ='3' class ='our-friends-card'> 
+                        <img class ='' src ="/shelter-page/assets/images/pets-scarlet.png" alt ='scarlett-doggy'>
+                        <h4  class ='our-friends-names'>Scarlett</h4>
+                        <button class ="btn-сard">Learn more</button> 
+                    </div>
+                    <div onClick ="updatePopup(this.id)" id ='6' class ='our-friends-card'> 
+                        <img class ='' src ="/shelter-page/assets/images/pets-freddie.png" alt ='freddie-kitty'>
+                        <h4  class ='our-friends-names'>Freddie</h4>
+                        <button class ="btn-сard">Learn more</button> 
+                    </div>
+                </div>
+                <div class ='navigation-block'>
+                    <button id ='endDownPage' class ='btn-arrow disabled'>&lt;&lt;</button>
+                    <button id ='nextDownPage' class ='btn-arrow disabled'>&lt;</button>
+                    <button id = 'num' class ='btn-arrow active'> 1</button>
+                    <button id = 'nextUpPage'class ='btn-arrow'>&gt;</button>
+                    <button id ='endUpPage' class ='btn-arrow'>&gt;&gt;</button>
+                </div>
+
+                <div class = 'modal-wrapper-background'>
+                    <div class = 'modal-wrapper'>
+                    <button class ='close-btn-modal'>&times;</button>
+                    <div class ='modal-window'>
+                    <img class ='modal-img' alt ='pet-pic' src ='/shelter-page/assets/images/pets-jennifer.png'>
+                    <div class ='modal-window-content'>
+                        <div>
+                            <h3 class ='modal-title'></h3>
+                            <h4 class ='modal-type-breed'></h4>
+                        </div>
+                        <p class ='modal-text'>
+                            
+                            
+                        </p>
+                        <ul class ='description-list'>
+                            <li class ='list-row'><h5 class ='text-list' id ='age'><b>Age:</b> </h5></li>
+                            <li class ='list-row'><h5 class ='text-list'  id ='inoculations'><b>Inoculations:</b> </h5></li>
+                            <li class ='list-row'><h5 class ='text-list'  id ='diseases'><b>Diseases:</b> </h5></li>
+                            <li class ='list-row'><h5 class ='text-list' id = 'parasites'><b>Parasites:</b> </h5></li>
+                        </ul>
+                        
+
+                    </div>
+                    
+
+                </div>
+                </div>
+            </div>
+
+
+        </section>
+ 
+    </main>
+    <footer id ='contact'>
+        <div class ='contact-mask'>
+        <div class ='contact-info'>
+            <h2 class ='contact-title'>For questions and suggestions</h2>
+            <ul class ='list-contact'>
+                <li><a href ="mailto:email@shelter.com" class ='contact-link'><img alt ='email-icon' width ='40' height="32" src ='/shelter-page/assets/icons/icon-email.svg'> email@shelter.com</a></li>
+                <li><a href ="tel:+136745677554" class ='contact-link'><img alt ='telephone-icon' width ='40' height="32" src ='/shelter-page/assets/icons/icon-phone.svg'> +13 674 567 75 54</a></li>
+            </ul>
+        </div>
+
+        <div class ='place-info'>
+            <h2 class ='contact-title'>We are waiting for your visit</h2>
+            <ul class ='list-visit-place'>
+                <li><a target="_blank" href ="https://www.google.com/maps/place/1+Centre+St+Terrace,+Boston,+MA+02119,+%D0%A1%D0%A8%D0%90/@42.326022,-71.0985081,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37a29f109ad67:0x3c3f6a5c559c7586!8m2!3d42.326022!4d-71.0963194" class ='contact-link'><img alt ='loc-icon' width ='22' height="32" src ='/shelter-page/assets/icons/icon-marker.svg'> 1 Central Street, Boston (entrance from the store)</a></li>
+                <li><a target="_blank" href ="https://www.google.com/maps/place/%D0%9F%D0%B0%D1%80%D0%BA+%D0%AE%D0%B3/@51.4701509,-0.2066431,13.75z/data=!4m9!1m2!2m1!1s18+South+Park,+London!3m5!1s0x48760f79376fa0e3:0x202ac3af5c1ea4ec!8m2!3d51.4691953!4d-0.1941945!15sChUxOCBTb3V0aCBQYXJrLCBMb25kb26SAQRwYXJr" class ='contact-link'><img alt ='loc-icon' width ='22' height="32" src ='/shelter-page/assets/icons/icon-marker.svg'> 18 South Park, London </a></li>
+            </ul>
+        </div>
+    </div>
+
+        <img class ='footer-puppy-img' width ='300' height="310" src ='/shelter-page/assets/images/footer-puppy.png' alt ='footer-puppy'>
+    </footer>
+    <script src ='/shelter-page/pages/pets/script.js'></script>
+</body>
+</html>
