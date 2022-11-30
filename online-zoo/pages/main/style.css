@@ -129,7 +129,7 @@ color: #FFFFFF;
     border-radius: 2px;
     width: 82px;
     border: 1.18841px solid #FFFFFF;
-background-image: url(/online-zoo/assets/icons/bamboo.svg);
+background-image: url(../assets/icons/bamboo.svg);
 background-repeat: no-repeat;
 background-position: 10.13px 71%;
 }
@@ -137,7 +137,7 @@ background-position: 10.13px 71%;
 .logo-section {
     width: 100%;
     height: 700px;
-    background-image: url(/online-zoo/assets/images/Giant_Panda.png);
+    background-image: url(../assets/images/Giant_Panda.png);
     background-repeat: no-repeat;
    background-size: cover;
     background-position: 0 102%;
@@ -214,7 +214,7 @@ justify-content: center;
     width: 100%;
     background: #FFFFFF;
  
-    background-image: url(/online-zoo/assets/images/flower_foto1.png);
+    background-image: url(../assets/images/flower_foto1.png);
 background-repeat: no-repeat;
 background-position: 100% 11px;
 }
@@ -243,7 +243,7 @@ width: 609px;
 height: 403px;
 backdrop-filter: blur(2px);
 display: flex;
-background: url(/online-zoo/assets/images/bamboo-cap.png);
+background: url(../assets/images/bamboo-cap.png);
 padding-left: 1px;
 background-position: center;
     background-repeat: no-repeat;
@@ -301,7 +301,7 @@ width: 100%;
 padding-bottom: 101px;
 
 gap: 86px;
-background: url(/online-zoo/assets/images/palm_foto.png) -4% 100% no-repeat, url(/online-zoo/assets/images/strelitzia_1.png) 100% 101% no-repeat;
+background: url(../assets/images/palm_foto.png) -4% 100% no-repeat, url(../assets/images/strelitzia_1.png) 100% 101% no-repeat;
 
  }
 
@@ -614,7 +614,7 @@ line-height: 130%;
 width: 100%;
 display: flex;
 flex-direction: column;
-background-image: url(/online-zoo/assets/images/leav_foto.png);
+background-image: url(../assets/images/leav_foto.png);
 background-repeat: no-repeat;
 background-position: right 127%;
 
@@ -980,7 +980,7 @@ margin: 0;
    width: 78px;
    height: 52px;
 border: 1px solid #FFFFFF;
-background-image: url(/online-zoo/assets/icons/bamboo.svg);
+background-image: url(../assets/icons/bamboo.svg);
 background-repeat: no-repeat;
 background-position: 10.13px 71%;
 }
@@ -1324,7 +1324,7 @@ color: #FFFFFF;
     .animal-section {
         padding-bottom: 137px;
         gap: 86px;
-        background: url(/online-zoo/assets/images/palm_foto.png) 0% 104% no-repeat, url(/online-zoo/assets/images/strelitzia_1.png) 100% 101% no-repeat;
+        background: url(../assets/images/palm_foto.png) 0% 104% no-repeat, url(../assets/images/strelitzia_1.png) 100% 101% no-repeat;
         background-size: 260px 222px;
 }
     .btn-arrow-block {
@@ -1594,7 +1594,7 @@ border: 0.768116px solid #FFFFFF;
     }
     .backstage-section{
         justify-content: flex-start;
-        background-image: url(/online-zoo/assets/images/flower_foto1.png);
+        background-image: url(../assets/images/flower_foto1.png);
         background-repeat: no-repeat;
         background-position: 106% -3px;
         background-size: 25% 97%;
@@ -2081,7 +2081,7 @@ line-height: 130%;
         gap: 20px;
         padding-bottom: 60px;
         
-        background: url(/online-zoo/assets/images/palm_foto.png) -10% 101% no-repeat, url(/online-zoo/assets/images/strelitzia_1.png) 108% 101% no-repeat;
+        background: url(../assets/images/palm_foto.png) -10% 101% no-repeat, url(../assets/images/strelitzia_1.png) 108% 101% no-repeat;
         background-size: 88px 80px;    
     }
 
