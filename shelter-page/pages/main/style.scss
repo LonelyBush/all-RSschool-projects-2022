@@ -12,16 +12,16 @@ html {
 }
 @font-face {
     font-family: 'Arial';
-    src: url('/shelter-page/assets/fonts/arialmt-webfont.woff2') format('woff2'),
-         url('/shelter-page/assets/fonts/arialmt-webfont.woff') format('woff');
+    src: url('../assets/fonts/arialmt-webfont.woff2') format('woff2'),
+         url('../assets/fonts/arialmt-webfont.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'Arial';
-    src: url('/shelter-page/assets/fonts/arial-italicmt-webfont.woff2') format('woff2'),
-         url('/shelter-page/assets/fonts/arial-italicmt-webfont.woff') format('woff');
+    src: url('../assets/fonts/arial-italicmt-webfont.woff2') format('woff2'),
+         url('../assets/fonts/arial-italicmt-webfont.woff') format('woff');
     font-weight: 400;
     font-style: italic;
 
@@ -33,7 +33,7 @@ body{
 font-weight: 400;
 color: #FFFFFF;
 margin: 0 auto;
-background-image: url(/shelter-page/assets/images/noise_transparent@2x.png);
+background-image: url(../assets/images/noise_transparent@2x.png);
  background-color: #F6F6F6;;
 
 }
@@ -96,7 +96,7 @@ header {
     padding-right: 40px;
     padding-bottom: 60px;
      margin: 0;
-     background: url(/shelter-page/assets/images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+     background: url(../assets/images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
 
 }
 
@@ -135,7 +135,7 @@ width: 310px;
 
 .hero {
 
-    background: url(/shelter-page/assets/images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+    background: url(../assets/images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
     height: 728px
 }
 
@@ -724,7 +724,7 @@ footer {
     padding-left: 40px;
     padding-right: 40px;
 
-   background: url(/shelter-page/assets/images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+   background: url(../assets/images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
 
 }
 
