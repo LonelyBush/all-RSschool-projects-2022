@@ -133,7 +133,7 @@ color: #FFFFFF;
     border-radius: 2px;
     width: 82px;
     border: 1.18841px solid #FFFFFF;
-background-image: url(/online-zoo/assets/icons/bamboo.svg);
+background-image: url(../assets/icons/bamboo.svg);
 background-repeat: no-repeat;
 background-position: 10.13px 71%;
 }
@@ -160,7 +160,7 @@ border: 0
 .panda-pic {
     width: 100%;
     height: 384px;
-    background-image: url(/online-zoo/assets/images/Giant_Panda.png);
+    background-image: url(../assets/images/Giant_Panda.png);
     background-repeat: no-repeat;
    background-size: cover;
    background-position: 0px 50%;
@@ -374,7 +374,7 @@ padding-left: 5px;
     visibility: initial;
 }
 .money-check:checked:after {
-    background: url(/online-zoo/assets/icons/roller_icon.svg);
+    background: url(../assets/icons/roller_icon.svg);
     background-repeat: no-repeat;
     background-position: 3px 7px;
     z-index: 1;
@@ -413,7 +413,7 @@ padding-left: 5px;
     left: -20px;
     right: -20px;
     bottom: -30px;
-    background: url(/online-zoo/assets/icons/roller_icon.svg);
+    background: url(../assets/icons/roller_icon.svg);
     background-repeat: no-repeat;
     background-position: 5px 10px;
     z-index: 1;
@@ -450,7 +450,7 @@ color: #333B41;
 
     width: 10px;
     height: 20px;
-    background: url('/online-zoo/assets/icons/dollar_icon.svg');
+    background: url('../assets/icons/dollar_icon.svg');
    
     background-repeat: no-repeat;
     
@@ -473,7 +473,7 @@ color: #333B41;
     color: #FE9013
 } 
 .money-check:checked+.money-text::before{
-    background: url('/online-zoo/assets/icons/dollar_active_icon.svg');
+    background: url('../assets/icons/dollar_active_icon.svg');
    
     background-repeat: no-repeat;
 }
@@ -496,7 +496,7 @@ input::-webkit-inner-spin-button {
     padding-top: 16px;
     padding-bottom: 14px;
     padding-left: 9px;
-    background-image: url(/online-zoo/assets/icons/dollar_icon.svg);
+    background-image: url(../assets/icons/dollar_icon.svg);
     background-repeat: no-repeat;
     background-position: 96% 50%;
     background-color: transparent;
@@ -611,7 +611,7 @@ margin: 0;
    width: 78px;
    height: 52px;
 border: 1px solid #FFFFFF;
-background-image: url(/online-zoo/assets/icons/bamboo.svg);
+background-image: url(../assets/icons/bamboo.svg);
 background-repeat: no-repeat;
 background-position: 10.13px 71%;
 }
@@ -1006,7 +1006,7 @@ color: #FFFFFF;
     .animal-section {
         padding-bottom: 137px;
         gap: 86px;
-        background: url("/online-zoo/assets/images/palm_foto.png") 0% 104% no-repeat, url("/online-zoo/assets/images/strelitzia_1.png") 100% 101% no-repeat;
+        background: url("../assets/images/palm_foto.png") 0% 104% no-repeat, url("../assets/images/strelitzia_1.png") 100% 101% no-repeat;
         background-size: 260px 222px;
 }
     .btn-arrow-block {
@@ -1383,7 +1383,7 @@ border: 0.768116px solid #FFFFFF;
     }
     .backstage-section{
         justify-content: flex-start;
-        background-image: url("/online-zoo/assets/images/flower_foto1.png");
+        background-image: url("../assets/images/flower_foto1.png");
         background-repeat: no-repeat;
         background-position: 106% -3px;
         background-size: 25% 97%;
@@ -1714,7 +1714,7 @@ color: #FFFFFF;
 
 
     .money-check:checked+.money-text::before{
-        background: url('/online-zoo/assets/icons/dollar_active_icon.svg');
+        background: url('../assets/icons/dollar_active_icon.svg');
         background-repeat: no-repeat;
         width: 10px;
     height: 21px;
@@ -1726,7 +1726,7 @@ color: #FFFFFF;
     display: inline-flex;
     width: 10px;
     height: 21px;
-    background: url(/online-zoo/assets/icons/dollar_icon.svg);
+    background: url(../assets/icons/dollar_icon.svg);
     background-repeat: no-repeat;
     background-size: 10px 10px;
     }
@@ -1965,7 +1965,7 @@ line-height: 130%;
         gap: 20px;
         padding-bottom: 60px;
         
-        background: url(/online-zoo/assets/images/palm_foto.png) -10% 101% no-repeat, url(/online-zoo/assets/images/strelitzia_1.png) 108% 101% no-repeat;
+        background: url(../assets/images/palm_foto.png) -10% 101% no-repeat, url(../assets/images/strelitzia_1.png) 108% 101% no-repeat;
         background-size: 88px 80px;    
     }
 
