@@ -4,22 +4,22 @@ Deploy:
 
 - JS/FE Pre-School 2022
  1. Portfolio
-    https://lonelybush.github.io/all-RSschool-projects/portfolio-page/
+    https://lonelybush.github.io/all-RSschool-projects-2022/portfolio-page/
  2. Random-jokes
-    https://lonelybush.github.io/all-RSschool-projects/Random-jokes/
+    https://lonelybush.github.io/all-RSschool-projects-2022/Random-jokes/
  3. Audio-player
-    https://lonelybush.github.io/all-RSschool-projects/1.2-audio-player/
+    https://lonelybush.github.io/all-RSschool-projects-2022/1.2-audio-player/
  4. Memory-card
-    https://lonelybush.github.io/all-RSschool-projects/Memory-card/
+    https://lonelybush.github.io/all-RSschool-projects-2022/Memory-card/
 - JS/FE stage 1 2022Q1
  1. Shelter
-    https://lonelybush.github.io/all-RSschool-projects/shelter-page/pages/main/
+    https://lonelybush.github.io/all-RSschool-projects-2022/shelter-page/pages/main/
  2. cssMemSlider
-    https://lonelybush.github.io/all-RSschool-projects/cssMemSlider/
+    https://lonelybush.github.io/all-RSschool-projects-2022/cssMemSlider/
 - JS/FE stage 1 2022Q3
  1. Online-zoo
-    https://lonelybush.github.io/all-RSschool-projects/online-zoo/pages/main/
+    https://lonelybush.github.io/all-RSschool-projects-2022/online-zoo/pages/main/
  2. Gem-Puzzle 
-    https://lonelybush.github.io/all-RSschool-projects/gem-puzzle/
+    https://lonelybush.github.io/all-RSschool-projects-2022/gem-puzzle/
  3. SongBird-app 
-    https://lonelybush.github.io/all-RSschool-projects/songbird/ 
+    https://lonelybush.github.io/all-RSschool-projects-2022/songbird/ 
